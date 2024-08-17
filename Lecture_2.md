@@ -29,7 +29,7 @@ Visual Studio Code (VS Code) is a popular code editor due to its simplicity and 
 3. **Installing a C++ Compiler:**
    - For Windows:
      - Install **MinGW** (Minimalist GNU for Windows) as your compiler.
-     - Download it from [MinGW-w64](http://mingw-w64.org/doku.php) and follow the setup instructions.
+     - Download it from [MinGW-w64](https://sourceforge.net/projects/mingw-w64/) and follow the setup instructions.
      - After installation, add the MinGW bin directory (usually `C:\MinGW\bin`) to your system's PATH environment variable.
    - For macOS:
      - Install **Xcode Command Line Tools** by running the command `xcode-select --install` in the terminal.
