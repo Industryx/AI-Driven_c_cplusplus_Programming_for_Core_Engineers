@@ -24,8 +24,10 @@ C and C++ are fundamental programming languages widely used in systems and appli
 Algorithms are step-by-step procedures to solve problems, much like how a mechanical engineer approaches a design task—by breaking it down into logical steps.
 
 - **Analogy:** Think of an algorithm as a blueprint for a machine. Just like a blueprint provides a step-by-step guide to constructing a part, an algorithm provides the steps needed to solve a problem.
-- **Flowcharts:** Flowcharts visually represent the steps in an algorithm, similar to how a mechanical engineer would use diagrams to explain a mechanical process. Each box in a flowchart could represent a different component in a machine or a step in manufacturing.
+![alogirthm image](algorithm.png)
 
+- **Flowcharts:** Flowcharts visually represent the steps in an algorithm, similar to how a mechanical engineer would use diagrams to explain a mechanical process. Each box in a flowchart could represent a different component in a machine or a step in manufacturing.
+![image of flowchart](flowchart.png)
 ---
 
 #### 4. **Use of ChatGPT in Programming**
