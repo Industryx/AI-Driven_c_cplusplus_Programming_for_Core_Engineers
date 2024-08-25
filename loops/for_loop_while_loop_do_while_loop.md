@@ -119,33 +119,6 @@ int main() {
 **Explanation:**
 
 - The loop runs at least once and continues as long as the user chooses to keep playing.
-
-### 6. **Nested Loops**
-
-Sometimes, loops are placed inside other loops, which is called nesting. For example, imagine organizing tables for multiple groups at a dinner event.
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    for(int table = 1; table <= 3; table++) {
-        cout << "Arranging guests at table " << table << ":" << endl;
-
-        for(int seat = 1; seat <= 5; seat++) {
-            cout << "  Guest at seat " << seat << endl;
-        }
-
-        cout << endl;
-    }
-    return 0;
-}
-```
-
-**Explanation:**
-
-- The outer loop handles tables, and the inner loop manages seating at each table.
-
 ---
 
 ### Summary
