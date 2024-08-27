@@ -1,6 +1,3 @@
-Here are the notes based on the transcription with added details on array initialization and different types of array declarations:
-
----
 
 ### **Understanding Arrays in C/C++**
 
