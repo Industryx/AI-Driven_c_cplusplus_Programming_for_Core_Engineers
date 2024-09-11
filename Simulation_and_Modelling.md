@@ -25,6 +25,8 @@ This technique uses random sampling to simulate complex systems. It is often use
 #include <cstdlib>
 #include <ctime>
 
+using namespace std;
+
 int main() {
     srand(time(0));
     int points = 1000000; // Number of random points
@@ -39,9 +41,10 @@ int main() {
     }
 
     double pi = 4.0 * insideCircle / points;
-    std::cout << "Estimated value of Pi: " << pi << std::endl;
+    cout << "Estimated value of Pi: " << pi << endl;
     return 0;
 }
+
 ```
 
 #### 3. Modelling Mechanical Systems: The Spring-Mass-Damper System
@@ -74,6 +77,8 @@ To simulate the behavior of the Spring-Mass-Damper system, we can discretize the
 #include <iostream>
 #include <vector>
 
+using namespace std;  // Use the standard namespace
+
 struct SpringMassDamper {
     double mass;       // Mass (m)
     double damping;    // Damping coefficient (c)
@@ -96,8 +101,8 @@ int main() {
     double velocity = 0.0;      // Initial velocity (dx/dt)
 
     // Vectors to store simulation results
-    std::vector<double> displacements;
-    std::vector<double> velocities;
+    vector<double> displacements;
+    vector<double> velocities;
 
     // Simulation loop
     for (int i = 0; i < steps; i++) {
@@ -110,11 +115,12 @@ int main() {
     }
 
     // Display the results
-    std::cout << "Displacement at the final step: " << displacements.back() << std::endl;
-    std::cout << "Velocity at the final step: " << velocities.back() << std::endl;
+    cout << "Displacement at the final step: " << displacements.back() << endl;
+    cout << "Velocity at the final step: " << velocities.back() << endl;
 
     return 0;
 }
+
 ```
 
 #### 5. Conclusion
